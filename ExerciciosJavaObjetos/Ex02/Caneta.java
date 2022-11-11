@@ -1,5 +1,5 @@
 package ExerciciosJavaObjetos.Ex02;
-
+// Atributos da Classe Caneta.
 public class Caneta {
     String modelo;
     String cor;
@@ -7,8 +7,9 @@ public class Caneta {
     int carga;
     boolean tampada;
 
+      //metodos da caneta...
     void status(){
-        System.out.println("Informações da caneta:");
+        System.out.println("\nInformações da caneta:");
         System.out.println("Cor: "+this.cor);
         System.out.println("Modelo: "+this.modelo);
         System.out.println("Ponta: "+this.ponta);
@@ -17,18 +18,18 @@ public class Caneta {
     }
 
     void rabiscar() {
-        if(tampada==true) {
+        if(tampada==false) {
             System.out.println("Estou rabiscando!.");
         } else {
-            System.out.println("Não posso rabicar!");
+            System.out.println("Não posso rabiscar!");
         }
     }
 
     void tampar() {
-        
+       System.out.println("Está tampada");
     }
 
     void destampar() {
-        
+        System.out.println("Não está tampada");
     }
 }
