@@ -33,5 +33,24 @@ public class Aula02 {
 
         // Final da aula, crie um novo objeto semelhante, com dois objetos fisicos, e dois objetos abstratos que você tenha proximo de você.
         // conclua a aula a termina os 4 Objetos criados.
+        
+        // criando Objetos concretos Mouse:
+
+        Mouse m1 = new Mouse();
+        // ATributos
+        m1.marca = "Dell";
+        m1.modelo = "G4";
+        m1.carga = 79;
+        m1.ligado = true;
+        m1.click = false;
+
+        // Chamado
+        m1.status();
+        m1.bateria();
+        m1.funcionando();
+        m1.defeito();
+
+        // criando Objetos concretos Teclado:
+       
     }
 }
