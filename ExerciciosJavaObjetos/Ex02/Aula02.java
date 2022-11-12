@@ -7,8 +7,8 @@ public class Aula02 {
         Caneta c1 = new Caneta();
         // Atributos do Objeto.
         c1.cor = "Azul";
-        c1.ponta = 1.5f;
-        c1.modelo = "Bic";
+        c1.ponta = 0.8f;
+        c1.modelo = "Tinta";
         c1.carga = 50;
         c1.tampada = false;
 
@@ -23,7 +23,7 @@ public class Aula02 {
         //Atributos
         c2.cor = "Preta";
         c2.ponta = 0.5f;
-        c2.modelo = "Pen";
+        c2.modelo = "Grafite";
         c2.carga = 90;
         c2.tampada = true;
 
