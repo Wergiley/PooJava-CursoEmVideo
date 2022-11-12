@@ -4,7 +4,7 @@ package ExerciciosJavaObjetos.Ex02;
 public class Aula02 {
     
     public static void main(String[] args) {
-        // Objeto c1 criado...
+        // Objeto1 
         Caneta c1 = new Caneta();
         // Atributos do Objeto.
         c1.cor = "Azul";
@@ -18,7 +18,7 @@ public class Aula02 {
         c1.status();
         c1.rabiscar();
 
-        // Novo Objeto c2 criado...
+        //Objeto2 
 
         Caneta c2 = new Caneta();
         //Atributos
