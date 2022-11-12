@@ -1,6 +1,5 @@
 package ExerciciosJavaObjetos.Ex02;
 
-
 public class Aula02 {
     
     public static void main(String[] args) {

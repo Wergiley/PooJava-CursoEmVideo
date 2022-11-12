@@ -1,5 +1,5 @@
 package ExerciciosJavaObjetos.Ex02;
 // Objeto Abstrato
-public class DespertadorDigital {
+public class Despertador {
     // Atributos, Metodos e Estado. 
 }
